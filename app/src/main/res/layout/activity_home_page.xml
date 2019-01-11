@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gdufe_cloud.HomePageActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#71716e">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/circle_me"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo_me"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="150dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="卢恒勋"
+                android:textColor="#d3d9bd"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#d3d9bd"
+                android:textSize="18sp"
+                android:text="信息学院"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#d3d9bd"
+                android:textSize="18sp"
+                android:text="16251104235"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dip"
+        android:background="#d6e1dc"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/course_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:scaleType="centerInside"
+                android:background="@drawable/circle_course"
+                android:src="@drawable/course"/>
+            <ImageView
+                android:id="@+id/credit_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:background="@drawable/circle_grade"
+                android:scaleType="centerInside"
+                android:src="@drawable/stars"/>
+            <ImageView
+                android:id="@+id/meishi_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:background="@drawable/circle_other"
+                android:scaleType="centerInside"
+                android:src="@drawable/eat"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/id_course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:textSize="15sp"
+                android:text="我的课程"/>
+            <TextView
+                android:id="@+id/id_grade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:textSize="15sp"
+                android:text="我的学分"/>
+            <TextView
+                android:id="@+id/id_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:textSize="15sp"
+                android:text="深夜食堂"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dip"
+        android:layout_marginTop="15dp"
+        android:background="#d6e1dc"/>
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Gdufe_Cloud 公告：" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="2dp"
+        android:background="#d6e1dc"/>
+    <TextView
+        android:id="@+id/gonggao_view"
+        android:paddingTop="5dp"
+        android:paddingLeft="35dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dip"
+        android:layout_marginTop="15dp"
+        android:background="#d6e1dc"/>
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  联系~反馈：" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="2dp"
+        android:background="#d6e1dc"/>
+    <TextView
+        android:id="@+id/lianxi_view"
+        android:drawableBottom="@drawable/erweima"
+        android:paddingTop="5dp"
+        android:paddingLeft="35dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+
+</LinearLayout>
